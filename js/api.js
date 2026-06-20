@@ -1,8 +1,8 @@
-const API_KEY = "4d3922e69bmsh727270bfaaa09eep1d8c7bjsn39910b9a6c01";
+const API_KEY = "556150474amshf6a23d351485508p1c0084jsnd52662cb413c";
 
 const headers = {
   "X-RapidAPI-Key": API_KEY,
-  "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
+  "x-rapidapi-host": "free-api-live-football-data.p.rapidapi.com"
 };
 
 async function getTodayFixtures() {
