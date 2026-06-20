@@ -1,13 +1,13 @@
 async function loadWorldCupData() {
     try {
 
-        const groups = await fetch('./2026/worldcup.groups.json')
+        const groups = await fetch("./2026/worldcup.json")
             .then(r => r.json());
 
-        const squads = await fetch('./2026/worldcup.squads.json')
+        const squads = await fetch("./2026/worldcup.squads.json")
             .then(r => r.json());
 
-        const stadiums = await fetch('./2026/worldcup.stadiums.json')
+        const stadiums = await fetch("./2026/worldcup.stadiums.json")
             .then(r => r.json());
 
         console.log(groups);
