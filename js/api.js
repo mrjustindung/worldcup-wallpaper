@@ -1,7 +1,7 @@
 const API_KEY = "556150474amshf6a23d351485508p1c0084jsnd52662cb413c";
 
 const headers = {
-  "X-RapidAPI-Key": API_KEY,
+  "x-rapidapi-key": API_KEY,
   "x-rapidapi-host": "free-api-live-football-data.p.rapidapi.com"
 };
 
