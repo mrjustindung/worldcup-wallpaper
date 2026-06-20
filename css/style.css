@@ -1,15 +1,1 @@
-
-body{margin:0;background:#050505;color:#fff;font-family:Arial}
-.layout{display:grid;grid-template-columns:22% 54% 24%;height:100vh;background:radial-gradient(circle,rgba(255,215,0,.15),#050505 60%)}
-.left{display:flex;flex-direction:column;gap:10px;padding:12px}
-.group{flex:1;border:1px solid gold;border-radius:12px;padding:10px}
-.center{display:flex;flex-direction:column;justify-content:center;align-items:center}
-.trophy{font-size:280px;filter:drop-shadow(0 0 25px gold)}
-.flags{font-size:60px}
-.teams{font-size:28px}.teams span{color:gold}
-.countdown{display:flex;gap:10px}.box{border:1px solid gold;padding:10px;border-radius:10px}
-.right{display:flex;flex-direction:column;padding:12px}
-.top{height:45%;display:flex;flex-direction:column;justify-content:center;align-items:center}
-.ball{font-size:70px}
-.bottom{height:55%;display:flex;flex-direction:column;justify-content:space-evenly}
-.match{border:1px solid gold;padding:15px;border-radius:10px;display:flex;justify-content:space-between}
+body{background:#000;color:#fff;}
